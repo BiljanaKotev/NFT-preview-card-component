@@ -1,0 +1,117 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background-color: hsl(217, 54%, 11%);
+  color: hsl(215, 51%, 70%);
+  font-family: "Outfit", sans-serif;
+}
+
+main {
+  background-color: hsl(216, 50%, 16%);
+  border-radius: 3%;
+  height: 540px;
+  margin: 80px auto;
+  width: 320px;
+}
+
+.img-container {
+  align-items: center;
+  display: flex;
+  height: 300px;
+  justify-content: center;
+}
+
+.cube {
+  border-radius: 3%;
+  margin-top: 10px;
+  width: 270px;
+}
+
+h1 {
+  font-size: 22px;
+  margin-left: 25px;
+  margin-top: 10px;
+  text-align: left;
+}
+
+a {
+  color: hsl(0, 0%, 100%);
+  text-decoration: none;
+}
+
+a:hover {
+  color: hsl(178, 100%, 50%);
+}
+
+p {
+  color: hsl(215, 51%, 70%);
+  font-size: 16px;
+  font-weight: 300;
+}
+
+.tagline {
+  line-height: 1.5;
+  margin: 10px 0 20px 25px;
+  word-spacing: 1px;
+}
+
+/*FlexBox*/
+
+.price-days {
+  align-items: baseline;
+  display: flex;
+  gap: 40px;
+  height: 60px;
+  justify-content: space-evenly;
+  width: 320px;
+}
+.eth-icon {
+  height: 20px;
+  width: 20px;
+  margin: 25px 0 0 -15px;
+}
+
+.eth-price {
+  color: hsl(178, 100%, 50%);
+  font-weight: 400;
+  margin: -25px 0 0 0;
+}
+
+hr {
+  background-color: hsl(215, 32%, 27%);
+  border: none;
+  height: 1px;
+  margin: -10px 10px 0 10px;
+  width: 90%;
+}
+
+.attribution-container {
+  align-items: center;
+  display: flex;
+  gap: 15px;
+  height: 60px;
+  margin-left: 20px;
+}
+.creator-pic {
+  border: 1px solid hsl(0, 0%, 100%);
+  border-radius: 50%;
+  height: auto;
+  width: 30px;
+}
+
+span {
+  color: hsl(0, 0%, 100%);
+}
+
+.footer {
+  font-size: 11px;
+  margin: 100px auto;
+  text-align: center;
+}
+
+.footer a {
+  color: hsl(228, 45%, 44%);
+}
