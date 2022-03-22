@@ -27,8 +27,8 @@ This is a solution to the [NFT preview card component challenge on Frontend Ment
 
 ### Links
 
-- Solution URL: [Add solution URL here](https://your-solution-url.com)
-- Live Site URL: [Add live site URL here](https://your-live-site-url.com)
+- Solution URL: ()
+- Live Site URL: ()
 
 ## My process
 
@@ -42,6 +42,9 @@ This is a solution to the [NFT preview card component challenge on Frontend Ment
 ### What I learned
 
 I learned that I need to add a height property to my flex container in order to center it vertically.
+I learned that align-self property will only work on a direct child element.
+I learned how to work with an svg.
+I learned how to overlay a div on top of a div and showcase it on a hover state.
 
 ### Continued development
  
