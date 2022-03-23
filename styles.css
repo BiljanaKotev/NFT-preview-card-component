@@ -105,18 +105,29 @@ p {
   width: 320px;
   margin-top: -20px;
   margin-left: -8px;
+  position: relative;
 }
 .eth-icon {
   align-self: center;
   height: 18px;
-  width: 20px;
-  margin: 25px -5 0 25px;
+  width: 11px;
+  padding-right: 5px;
 }
 
 .eth-price {
   color: hsl(178, 100%, 50%);
   font-weight: 400;
   margin-right: 70px;
+}
+
+.clock-icon {
+  width: 17px;
+  height: 17px;
+  margin-top: 2px;
+}
+
+.days-text {
+  float: right;
 }
 
 hr {
@@ -158,3 +169,6 @@ footer {
 footer a {
   color: hsl(228, 45%, 44%);
 }
+
+
+
